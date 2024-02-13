@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.cart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    cursor: pointer;
+    background: none;
+    position: relative;
+}
+#count {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    background-color: #edcf5d;
+    border-radius: 5px;
+    left: 20px;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.cart > img {
+    object-fit: cover;
+    object-position: center;
+    width: 20px;
+    height: 20px;
+}
+.cart > #title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    font-size: 11px;
+}

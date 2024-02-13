@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    min-height: 100vh;
+    gap: 10px;
+
+    
+}
+.section{
+    width: 78%;
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 56px;
+}
