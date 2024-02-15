@@ -6,7 +6,7 @@ function InputSearch() {
     return (
         <div className={style.search}>
             <img src={searchIcon} alt='searchIcon' />
-            <input placeholder="Search..." type='text' />
+            <input placeholder='Search...' type='text' />
         </div>
     );
 }

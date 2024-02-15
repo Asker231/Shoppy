@@ -4,4 +4,9 @@ import "./index.css";
 import HomePage from "../pages/HomePage/HomePage";
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<HomePage />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <BrowserRouter>
+<HomePage />
+    
+    </BrowserRouter>
+);

@@ -1,11 +1,12 @@
-.Categories{
+.Categories {
     display: flex;
     flex-direction: row;
-    padding:5px;
+    padding: 5px;
     gap: 20px;
     align-items: center;
     justify-content: flex-start;
     margin-top: 59px;
     width: 78%;
-    border-bottom: 0.5px solid #F2F2F2;
+    border-bottom: 0.5px solid #f2f2f2;
+    position:fixed;
 }
